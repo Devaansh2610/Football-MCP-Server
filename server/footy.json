@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "footy_server": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--init",
+        "-p", "8080:8080",
+        "-e", "RAPID_API_KEY_FOOTBALL",
+        "-e", "USER_WITTY_KEY",
+        "footy-server"
+      ],
+      "env": {
+        "RAPID_API_KEY_FOOTBALL": "f58d71e49amsh773b93ab46e7bc2p11a412jsn8b59820e1412",
+        "USER_WITTY_KEY": "witty9911567555"
+      }
+    }
+  }
+}
+

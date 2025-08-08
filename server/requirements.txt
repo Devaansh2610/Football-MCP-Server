@@ -1,0 +1,9 @@
+langchain
+langgraph
+mcp[cli]
+pandas
+pydantic
+mcp[inspector]
+python-dotenv
+langchain-groq
+mcp 
